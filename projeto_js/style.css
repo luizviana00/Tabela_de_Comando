@@ -1,0 +1,72 @@
+* body {
+  background-color: rgb(14, 3, 24);
+  max-width: 500px;
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+  background-color: rgb(190, 158, 88);
+  color: rgb(54, 18, 34);
+
+}
+
+h1 {
+  color: rgb(215, 218, 250);
+  font-size: 40px;
+  text-align: center;
+  text-shadow: 1px 1px 4px #fff ;
+}
+
+input {
+  height: 40px;
+  border: 2px solid #c28f32;
+  background-color: #333;
+  color: aliceblue;
+  width: 75%;
+}
+
+button {
+  border: none;
+  height: 44px;
+  background-color: rgb(190, 158, 88);
+  color: #fff;
+  cursor: pointer;
+  transition: 0.5s;
+  width: 90px;
+  
+}
+
+button:hover {
+  background-color: rgb(197, 172, 122);
+  height: 40px;
+}
+
+button :active {
+  background-color: rgb(190, 158,60);
+}
+
+/* estou estilizando as ul é li*/
+
+ul {
+ list-style-type: none;
+ padding:0;
+}
+
+li {
+  background-color: rgb(197, 158, 60);
+  padding: 10px;
+  margin: 10px auto;
+  border-radius: 5px;
+  color:#fff;
+  font-weight: bolder;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+span {
+  cursor: pointer;
+}
